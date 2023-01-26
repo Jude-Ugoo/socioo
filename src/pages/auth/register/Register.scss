@@ -1,0 +1,84 @@
+.register {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  // background-color: whitesmoke;
+
+  &__wrapper {
+    display: flex;
+    width: 70%;
+    height: 100%;
+
+    &-left {
+      &-img {
+        height: 500px;
+        padding-right: 31px;
+      }
+
+      & span {
+        font-size: 18px;
+      }
+    }
+
+    &-right {
+      &-box {
+        height: 425px;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 60px;
+      }
+    }
+  }
+
+  &__input {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  &__input:focus {
+    outline: none;
+  }
+
+  &__input-btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(65, 145, 65);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 145px;
+  }
+
+  &__forget {
+    color: gray;
+  }
+
+  &__options {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+}
+
+.login__wrapper-left,
+.login__wrapper-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

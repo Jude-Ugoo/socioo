@@ -1,0 +1,43 @@
+.welcomePage {
+    display: grid;
+    place-items: center;
+  
+    &__auth-buttons {
+      display: flex;
+      padding: 20px;
+      margin: 20px;
+      margin-left: 70rem;
+  
+      &-login,
+      &-signup {
+        margin-right: 30px;
+        background-color: rgb(65, 145, 65);
+        padding: 10px;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+      }
+  
+      &-login:hover,
+      &-signup:hover {
+        background-color: white;
+        color: rgb(65, 145, 65);
+        cursor: pointer;
+        transition: ease-in-out 0.3s;
+      }
+    }
+  
+    &__image {
+      // height: 500px;
+      fill: red;
+    }
+  
+    &__home-text {
+      align-items: center;
+      text-align: center;
+    }
+}
