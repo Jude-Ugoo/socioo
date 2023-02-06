@@ -1,0 +1,35 @@
+.welcomePage {
+  display: grid;
+  place-items: center;
+}
+.welcomePage__auth-buttons {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 70rem;
+}
+.welcomePage__auth-buttons-login, .welcomePage__auth-buttons-signup {
+  margin-right: 30px;
+  background-color: rgb(65, 145, 65);
+  padding: 10px;
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  font-weight: 400;
+}
+.welcomePage__auth-buttons-login:hover, .welcomePage__auth-buttons-signup:hover {
+  background-color: white;
+  color: rgb(65, 145, 65);
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+.welcomePage__image {
+  fill: red;
+}
+.welcomePage__home-text {
+  align-items: center;
+  text-align: center;
+}/*# sourceMappingURL=Welcome.css.map */
